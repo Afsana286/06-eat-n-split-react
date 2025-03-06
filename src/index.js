@@ -167,7 +167,7 @@ function SpliBill({selectedfriend,onsplitbill}){
         <option value="user">You</option>
         <option value="friend">{selectedfriend.name}</option>
       </select>
-      <Button>Split bill</Button>
+      <Button>Split bill Now</Button>
     </form>
   )
 }
